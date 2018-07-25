@@ -8,3 +8,17 @@ promise.then(function(value) {
 });
 ```
 
+### 自己生成Promise对象
+```
+function xxx() {
+    return new Promise((resolve, reject) => {
+            setTimeout(() => {
+                resolve()
+            },1000)
+        })
+}
+xxx().then(() => {console.log(1)})
+console.log(2)
+// 2 
+// 1s后 1
+```
