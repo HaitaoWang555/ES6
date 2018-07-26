@@ -14,3 +14,4 @@
 * [Promise](Promise对象.md)
 * [async](async.md)
 * [Class](Class.md)
+* [Module](Module.md)
